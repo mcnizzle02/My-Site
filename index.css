@@ -1,0 +1,53 @@
+h1 {
+    font-family: 'Permanent Marker', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+h2 {
+    font-family: 'Permanent Marker', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin: 40px;
+    background-color: black;
+    color: azure;
+    background-image: url(./images/bg_image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#navigation ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+#navigation li {
+    display: inline;
+    margin-right: 15px;
+    color: azure;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: lime;
+}
+
