@@ -34,30 +34,50 @@ body {
     margin-bottom: 20px;
 }
 
-
+#navigation {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
 #navigation ul {
     list-style-type: none;
     padding: 0;
     display: flex;
     margin: 0;
     justify-content: center;
-    font-family: 'Permanent Marker', sans-serif;
-    
-    
+    font-family: 'Permanent Marker', sans-serif;   
 }
 
 #navigation li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 20px;
     color: azure;   
 }
 
 #navigation a {
-    text-decoration: none;
-    color: rgb(71, 163, 229);
-    padding: 14px 16px;
-    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
-    
+  position: relative;
+  text-decoration: none;
+  color: rgb(71, 163, 229);              /* starting color */
+  transition: color 0.3s ease;  /* smooth color fade */
+}
+
+#navigation a:hover {
+  color: #00bfff;
+}
+
+#navigation a:hover::after {
+  width: 100%;
+}
+
+#navigation a::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #00bfff;
+  transition: width 0.3s ease;  /* underline slide */
 }
 
 .page-title {
@@ -84,7 +104,6 @@ body {
     margin-top: -15px;
     margin-bottom: 20px;
     color: rgb(71, 163, 229);
-
 }
 
 #location {
