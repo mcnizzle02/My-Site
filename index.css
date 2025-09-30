@@ -26,6 +26,10 @@ body {
     background-position: center;
 }
 
+ul {
+  margin-top: -15px;
+}
+
 #profile-pic {
     width: 150px;
     height: 150px;
@@ -111,7 +115,7 @@ body {
 }
 
 #timeline {
-  margin-top: -20px;
+  margin-top: -30px;
 }
 
 
