@@ -2,6 +2,8 @@ h1 {
     font-family: 'Permanent Marker', sans-serif;
     font-weight: 400;
     font-size: 2em;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: blue;
 }
 
 h2 {
@@ -11,6 +13,8 @@ h2 {
     margin-top: -10px;
     margin-bottom: 20px;
     color: rgb(71, 163, 229);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 body {
@@ -19,16 +23,13 @@ body {
     font-size: 1.5em;
     margin: 40px;
     background-color: black;
-    color: azure;
-    background-image: url(./images/tech_background3.jpg);
+    color: white;
+    background-image: url(./images/tech_back_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-ul {
-  margin-top: -15px;
-}
 
 #profile-pic {
     width: 150px;
@@ -47,7 +48,7 @@ ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    margin: 0;
+    margin: 0 auto;
     justify-content: center;
     font-family: 'Permanent Marker', sans-serif;   
 }
@@ -55,7 +56,9 @@ ul {
 #navigation li {
     display: inline;
     margin-right: 20px;
-    color: azure;   
+    color: azure;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;   
 }
 
 #navigation a {
@@ -108,14 +111,20 @@ ul {
     margin-top: -15px;
     margin-bottom: 20px;
     color: rgb(71, 163, 229);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 #location {
   margin-top: -20px;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: blue;
 }
 
 #timeline {
   margin-top: -30px;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: blue;
 }
 
 
