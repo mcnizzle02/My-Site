@@ -11,12 +11,12 @@ h2 {
     font-size: 1em;
     margin-top: -10px;
     margin-bottom: 20px;
-    color: rgb(71, 163, 229);
+    color: rgb(17, 236, 206);
    
 }
 
 body {
-    font-family: 'Permanent Marker', sans-serif;
+    font-family: 'Edu TAS Beginner', sans-serif;
     font-weight: 400;
     font-size: 1.3em;
     font-style: normal;
@@ -63,7 +63,7 @@ body {
 #navigation a {
   position: relative;
   text-decoration: none;
-  color: rgb(71, 163, 229);              /* starting color */
+  color: rgb(17, 236, 206);              /* starting color */
   transition: color 0.3s ease;  /* smooth color fade */
 }
 
@@ -100,7 +100,7 @@ body {
     font-size: 1em;
     margin-top: -10px;
     margin-bottom: 20px;
-    color: rgb(71, 163, 229);
+    color: rgb(17, 236, 206);
 }
 
 #title {
@@ -109,7 +109,7 @@ body {
     font-size: 1em;
     margin-top: -15px;
     margin-bottom: 20px;
-    color: rgb(71, 163, 229);
+    color: rgb(17, 236, 206);
    
 }
 
